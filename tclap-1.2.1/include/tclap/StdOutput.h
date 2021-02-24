@@ -110,7 +110,7 @@ inline void StdOutput::version(CmdLineInterface& _cmd)
 	std::string progName = _cmd.getProgramName();
 	std::string xversion = _cmd.getVersion();
 
-	std::cout << std::endl << progName << "  vErsion: " 
+	std::cout << std::endl << progName << "  version: " 
 			  << xversion << std::endl << std::endl;
 }
 
